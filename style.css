@@ -1,7 +1,9 @@
 html, body {
+  background-color: hotpink;
+  max-width: 1200px;
   margin: auto;
-  padding: 25px;
-  align-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 canvas {
   display: block;
