@@ -1,17 +1,19 @@
-var circleX = 0
+
 
 function setup() {
-  createCanvas(1200, 1400);
+  createCanvas(1500, 1400);
 }
 
-unction draw() {
+function draw() {
 
  if (mouseIsPressed){
+    noStroke();
     fill(255);
   }
   else {
+    noStroke();
     fill(237,34,93);
   }
-  ellipse(mouseX, mouseY, 25, 25);
+  ellipse(mouseX, mouseY, 50, 50);
 
 }
