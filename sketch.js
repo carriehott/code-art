@@ -4,13 +4,14 @@ function setup() {
   createCanvas(1200, 1400);
 }
 
-function draw() {
-  background(250, 250, 100);
+unction draw() {
 
-  noStroke();
-  fill(250, 200, 200);
-  ellipse(circleX, 200, 100, 100);
-
-  circleX = circleX + 30;
+ if (mouseIsPressed){
+    fill(255);
+  }
+  else {
+    fill(237,34,93);
+  }
+  ellipse(mouseX, mouseY, 25, 25);
 
 }
