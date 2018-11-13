@@ -2,8 +2,6 @@ html, body {
   background-color: hotpink;
   max-width: 1500px;
   margin: auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 canvas {
   display: block;
