@@ -1,6 +1,7 @@
 html, body {
-  background-color: hotpink;
-  max-width: 1500px;
+  background-color: #FF9E55;
+  max-width: 2000px;
+  padding-top: 10px;
   margin: auto;
 }
 canvas {
